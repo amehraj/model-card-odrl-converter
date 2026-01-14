@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Vingroup",
+    "email": "phamnhatvuong@vingroup.vn",
+    "password": "vingroup12345",
+    "profilePicture": "https://s3-symbol-logo.tradingview.com/vingroup-joint-stock-company--600.png",
+    "accountType": "organization"
+  },
+  {
+    "name": "FPT",
+    "email": "truonggiabinh@fpt.vn",
+    "password": "fanphuongtuan",
+    "profilePicture": "https://yt3.googleusercontent.com/ytc/AIdro_m_V1j1YSRZOpi3y2lpS6G3gEzTokXtkbNJ6PcqxHqeO_M=s900-c-k-c0x00ffffff-no-rj",
+    "accountType": "organization"
+  },
+  {
+    "name": "Techcombank",
+    "email": "hohunganh@tcb.vn",
+    "password": "mavanxan",
+    "profilePicture": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/453076304_910349481138219_1377419910091349711_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=V9JamlRPAnQQ7kNvwE-43Hh&_nc_oc=AdnFOOB0wPlXkKgepSYmyAjyqDcjRAn9jB44exl7JBL9fydeG30NieR4niTY9W_yXHo&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=fiiaMkhwtx-1eBvuExy__A&oh=00_AfLft0i_3ru9MxD-0--fzc16HXBth_NGcL47pfLeMB1mFg&oe=68344EDB",
+    "accountType": "organization"
+  },
+  {
+    "name": "BraveBits",
+    "email": "ancx@bravebits.vn",
+    "password": "xuanancao",
+    "profilePicture": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/350495682_781081457021891_2871727330832461915_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=b5aOD_tce-QQ7kNvwE4S-v0&_nc_oc=AdkcOn0oNtVpqyPGboQ_SQwY8nhktXKIVi2ew0qtQiYD9IcQw9l6AUzMzidpCVhgN88&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=0lvMJDgS12nm5S5v673mtQ&oh=00_AfLgrgkLigX2XrtK3J2buxyHwqVfGS6PDepYrDZ065aayQ&oe=68346716",
+    "accountType": "organization"
+  },
+  {
+    "name": "Got It AI",
+    "email": "diepkhanhan@gotitai.vn",
+    "password": "diepkhanhan",
+    "profilePicture": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/352670624_227552650042539_1933182833558111945_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UTHWt9BdCZcQ7kNvwG8d_Hi&_nc_oc=AdmAB1plKYt32zXApJiQVqVSvgQzyuh4blRSL6nV386CwtQFBrpSqL116HFjZYqD_NY&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=ETzTb3ZWXHJBVCUsSHPcSg&oh=00_AfIdnkN6t2dQftKYTkyofv4kXNyX1YjISErJSkeUe2hAxA&oe=6835A16E",
+    "accountType": "organization"
+  },
+  {
+    "name": "One Mount",
+    "email": "sbsbsb@onemount.vn",
+    "password": "khongthemcheckcv",
+    "profilePicture": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/476159886_1166820628781345_8689855967513707616_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Lvfg3ta3mBEQ7kNvwGgvosU&_nc_oc=AdnA8NE5ZFqPvUVfoMDxXowffq0NzgGqYv_3AdTaZf61aSHks17DrCVe3qAK3Uf967c&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=9JeRujrxcESHD0VQowqRyg&oh=00_AfIfShmC3dHouywr0ormpy6Rbr05l9h2KZGlT8M0ogl-_g&oe=683445B0",
+    "accountType": "organization"
+  },
+  {
+    "name": "TopCV",
+    "email": "juliahuyen@topcv.vn",
+    "password": "topcongviec",
+    "profilePicture": "https://yt3.googleusercontent.com/RX24es0dx5acsYVgihw6qqq2lpY7byWxZBX6YJmD3LsRVmkIkwNw1VXHcAhB376pEqRAaSSd-g=s900-c-k-c0x00ffffff-no-rj",
+    "accountType": "organization"
+  },
+  {
+    "name": "Viettel",
+    "email": "taoviettel@viettel.vn",
+    "password": "taoviettel",
+    "profilePicture": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/326817380_599945515310885_5427892840712611085_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=6yi9KgzjgccQ7kNvwGiK6kY&_nc_oc=AdkM1z9yq1c8TDg-2pB_eszh2GAYGv53XQpL22gnkodEjBOLe1JYzzVboBIzr_uHA0A&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=zfm9Zu-SkKaJbGcPQVntxw&oh=00_AfIxh6i2e_kYNdkmjctmaZghmUASiW5w4vLI6UnmHz8Bdw&oe=683599E1",
+    "accountType": "organization"
+  },
+  {
+    "name": "VNG",
+    "email": "giavanlo@vng.vn",
+    "password": "giavanlo",
+    "profilePicture": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/332859738_564223395447210_4034292014704795722_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=f5wS-FA8mj8Q7kNvwG8DwqJ&_nc_oc=Adkc-DSAdWrhCEMfnx8zkfGlGsOAskJ0BSrm9gG_XD1O0sHCY4_DpsPxW7FS9ixZC_s&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=NRcN_ziMbCS2B34l3XhifQ&oh=00_AfIfCiCJfrunJi6uhtd5NLz4YmMZjgI-A4tbjDAxTD4KBA&oe=6834615C",
+    "accountType": "organization"
+  },
+  {
+    "name": "Ten Plus 2018",
+    "email": "ictenplus@tenplus.cnn",
+    "password": "ictenplus",
+    "profilePicture": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/308714399_458812216273883_8631893827402470505_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=i-TZn-lzgkEQ7kNvwHFDqFw&_nc_oc=AdnXmFlBs-6HewmXvTdfLqK2E4TQ9nm844uy7ZYTvAtRVbOC_z1Gbn_MfkEAduitLdw&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=WU_YR-uGz66X9WhJJKiOXA&oh=00_AfI8OkIeBdmsQQil_wnVGgpkEbbeFDkcGh_5U4AoZXGQCQ&oe=6834595C",
+    "accountType": "personal"
+  },
+  {
+    "name": "Team CNN Leaders",
+    "email": "mobeghe@tcl.cnn",
+    "password": "mobeghe123",
+    "profilePicture": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/462162206_958486736309911_5189657975532420510_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=YVcg1n_l1KQQ7kNvwHbgdKo&_nc_oc=Adk5vh3lOIXYoAyZ69KJwU6MgTEPcfDtDLWJeCiB7aeyXzr_5i1BHYkIT4SC-8vu9Gg&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=cfTMTfFryK_V1KgQ3A-4mw&oh=00_AfICM7IZ-Zn-WgzIRQ-ZaB1YFXGpY45DAng8Y3TzbFcdlA&oe=68346211",
+    "accountType": "personal"
+  },
+  {
+    "name": "CNN Zoom",
+    "email": "namnghiem@zoom.cnn",
+    "password": "nghiemduchoangnam",
+    "profilePicture": "https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/466993537_9494377453912939_6007403503056117068_n.png?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=41Gen0mDIeMQ7kNvwHoXQ4o&_nc_oc=Adk0A5TtYskOFYSVOiG1h0bn71hf7ovdY7FDSDUK462w6r_vbJ8dN7mfBFOKsXhWbwo&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=kRaStUKaa4cy2LIXFiCAOg&oh=00_AfJrpisnqrPPR_l1eiW4OCHGuqXcXiFv_cfzngrimdhstg&oe=68343D62",
+    "accountType": "personal"
+  }
+]

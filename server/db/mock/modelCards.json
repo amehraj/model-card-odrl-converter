@@ -1,0 +1,569 @@
+[
+  {
+    "name": "DeepDream Vision",
+    "description": "This model generates surreal and artistic images by enhancing patterns in existing visuals. It can transform ordinary photos into dreamlike masterpieces.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 0,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "TextGen Pro",
+    "description": "A powerful language model capable of generating coherent and contextually relevant text. It excels at tasks like content creation, summarization, and dialogue generation.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 5,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "VoiceClone 3000",
+    "description": "This AI model can accurately mimic human voices, producing realistic speech from text input. It's ideal for accessibility applications and personalized audio content.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 9,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Predictive Analytics Engine",
+    "description": "A robust model designed for forecasting future trends and behaviors based on historical data. It provides valuable insights for business strategy and risk assessment.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 2,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Facial Recognition AI",
+    "description": "This model identifies and verifies individuals from images or video streams with high accuracy. It's used in security systems and personalized user experiences.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 7,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Medical Image Classifier",
+    "description": "An AI model that assists in diagnosing diseases by classifying medical images such as X-rays and MRIs. It helps medical professionals make more informed decisions.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 11,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Fraud Detection System",
+    "description": "This model leverages machine learning to identify and prevent fraudulent transactions in real-time. It protects businesses and consumers from financial crime.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 4,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Customer Support Bot",
+    "description": "An intelligent conversational AI designed to handle customer inquiries and provide immediate support. It enhances customer satisfaction and reduces response times.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 1,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Market Trend Analyzer",
+    "description": "This AI analyzes vast amounts of market data to identify emerging trends and investment opportunities. It assists financial analysts in making informed decisions.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 6,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Natural Language Translator",
+    "description": "A sophisticated model that provides highly accurate translations between multiple languages. It bridges communication gaps across diverse linguistic backgrounds.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 3,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Content Recommendation Engine",
+    "description": "This AI personalizes content suggestions for users based on their preferences and past interactions. It enhances user engagement and content discovery.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 8,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Sentiment Analysis Tool",
+    "description": "An AI model that determines the emotional tone and sentiment expressed in text data. It's valuable for understanding public opinion and customer feedback.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 0,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Anomaly Detection AI",
+    "description": "This model identifies unusual patterns or outliers in datasets that deviate from expected behavior. It's crucial for cybersecurity, fraud detection, and system monitoring.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 5,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Robotic Process Automation (RPA) Bot",
+    "description": "An AI-powered bot that automates repetitive and rule-based tasks within business processes. It improves efficiency and reduces human error.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 9,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Crop Yield Predictor",
+    "description": "This model uses environmental data and historical records to forecast agricultural crop yields. It helps farmers optimize planting and harvesting strategies.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 2,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Personalized Learning AI",
+    "description": "An AI model that adapts educational content and pace to individual student needs and learning styles. It aims to enhance academic performance and engagement.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 7,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Drug Discovery Assistant",
+    "description": "This AI accelerates the drug discovery process by predicting promising molecular compounds and their interactions. It assists researchers in developing new therapeutics.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 11,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Stock Market Predictor",
+    "description": "A sophisticated AI that forecasts stock price movements based on historical data, news sentiment, and economic indicators. It aids investors in making strategic decisions.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 4,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Automated Code Reviewer",
+    "description": "This AI analyzes source code for potential bugs, security vulnerabilities, and adherence to coding standards. It improves software quality and development efficiency.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 1,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Supply Chain Optimizer",
+    "description": "An AI model that streamlines supply chain operations by optimizing logistics, inventory management, and demand forecasting. It reduces costs and improves efficiency.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 6,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Traffic Flow Predictor",
+    "description": "This AI forecasts traffic congestion and patterns, helping urban planners and navigation systems optimize routes. It contributes to smoother transportation.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 3,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Personalized Fitness Trainer",
+    "description": "An AI that creates customized workout plans and provides real-time feedback based on individual progress and goals. It helps users achieve their fitness objectives.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 8,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Cybersecurity Threat Detector",
+    "description": "This AI identifies and mitigates cyber threats by analyzing network traffic and system logs for malicious activity. It protects digital assets from attacks.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 0,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Climate Change Modeler",
+    "description": "An AI model that simulates and predicts climate patterns and their impacts under various scenarios. It provides crucial data for environmental research and policy-making.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 5,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Manufacturing Quality Inspector",
+    "description": "This AI inspects products on assembly lines for defects and inconsistencies, ensuring high-quality output. It reduces waste and improves production efficiency.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 9,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Financial Risk Assessor",
+    "description": "An AI model that evaluates the creditworthiness of individuals and businesses, predicting potential defaults. It aids financial institutions in managing risk.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 2,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Energy Consumption Optimizer",
+    "description": "This AI analyzes energy usage patterns and recommends ways to reduce consumption in buildings and industrial facilities. It promotes sustainability and cost savings.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 7,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Genetic Sequence Analyzer",
+    "description": "An AI model that processes and interprets genetic sequences, identifying mutations and predispositions to diseases. It supports advancements in personalized medicine.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 11,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Real Estate Price Predictor",
+    "description": "This AI forecasts property values based on various factors like location, amenities, and market trends. It assists buyers, sellers, and real estate professionals.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 4,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Legal Document Reviewer",
+    "description": "An AI model that rapidly reviews legal documents, identifying key clauses, anomalies, and relevant information. It streamlines legal processes and reduces human effort.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 1,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Smart City Management AI",
+    "description": "This AI integrates data from various urban systems to optimize resource allocation, traffic management, and public safety. It contributes to more efficient cities.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 6,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Weather Forecasting Model",
+    "description": "A highly accurate AI that predicts weather patterns, temperatures, and precipitation based on vast atmospheric data. It assists in planning and disaster preparedness.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 3,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Social Media Content Generator",
+    "description": "This AI creates engaging and relevant content for social media platforms, optimizing for reach and audience interaction. It helps businesses maintain an active online presence.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 8,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Speech-to-Text Transcriber",
+    "description": "An AI model that accurately converts spoken language into written text, even in challenging acoustic environments. It's used for dictation, meeting minutes, and accessibility.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 0,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Automated Financial Advisor",
+    "description": "This AI provides personalized financial advice and investment recommendations based on individual goals and risk tolerance. It empowers users to make informed financial decisions.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 5,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Healthcare Appointment Scheduler",
+    "description": "An AI model that optimizes healthcare appointment scheduling, reducing wait times and improving resource allocation. It enhances efficiency in medical practices.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 9,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Personalized Marketing Campaigner",
+    "description": "This AI designs and executes highly targeted marketing campaigns based on customer demographics and behavior. It maximizes engagement and conversion rates.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 2,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Fraudulent Review Detector",
+    "description": "An AI model that identifies fake or malicious reviews on e-commerce platforms and social media. It helps maintain the integrity of online ratings.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 7,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Smart Grid Energy Manager",
+    "description": "This AI optimizes energy distribution and consumption within smart grids, balancing supply and demand. It improves grid stability and efficiency.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 11,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Disaster Response Coordinator",
+    "description": "An AI model that assists in coordinating resources and logistics during natural disasters and emergencies. It helps accelerate relief efforts and save lives.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 4,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Construction Project Optimizer",
+    "description": "This AI streamlines construction projects by optimizing scheduling, resource allocation, and risk management. It aims to reduce delays and costs.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 1,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Agricultural Pest Detector",
+    "description": "An AI model that identifies plant diseases and pests from images, helping farmers take timely action to protect crops. It contributes to higher yields and food security.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 6,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Game AI Player",
+    "description": "This AI learns to play complex games, often surpassing human performance, through reinforcement learning. It's used for game development and research.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 3,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Music Composition AI",
+    "description": "An AI that generates original musical pieces in various styles and genres. It assists composers and explores the creative potential of AI.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 8,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Resume Parser AI",
+    "description": "This AI extracts key information from resumes and CVs, streamlining the recruitment process for HR professionals. It helps in efficient candidate screening.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 0,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Drug Interaction Predictor",
+    "description": "An AI model that predicts potential adverse drug interactions, assisting healthcare providers in prescribing safe medications. It enhances patient safety.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 5,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Personalized News Aggregator",
+    "description": "This AI curates news content based on individual user preferences, delivering a tailored news feed. It helps users stay informed on topics they care about.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 9,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Waste Management Optimizer",
+    "description": "An AI model that optimizes waste collection routes and recycling processes, leading to more efficient waste management. It contributes to environmental sustainability.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 2,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Mental Health Support Bot",
+    "description": "This AI provides empathetic conversational support and resources for individuals dealing with mental health challenges. It offers a confidential and accessible avenue for help.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 7,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Precision Agriculture AI",
+    "description": "An AI model that analyzes drone imagery and sensor data to provide precise insights for crop health, irrigation, and fertilization. It optimizes agricultural practices.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 11,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Employee Performance Predictor",
+    "description": "This AI forecasts employee performance and identifies factors contributing to success or potential attrition. It helps HR departments with talent management.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 4,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Customer Churn Predictor",
+    "description": "An AI model that predicts which customers are likely to discontinue using a service or product. It allows businesses to implement retention strategies proactively.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 1,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Urban Planning Assistant",
+    "description": "This AI analyzes urban data to assist city planners in making informed decisions about infrastructure, zoning, and public services. It promotes sustainable urban development.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 6,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Supply Chain Risk Assessor",
+    "description": "An AI model that identifies potential risks and vulnerabilities within a supply chain, enabling proactive mitigation strategies. It enhances supply chain resilience.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 3,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Legal Research Assistant",
+    "description": "This AI rapidly searches and analyzes vast legal databases, identifying relevant cases, statutes, and precedents. It significantly speeds up legal research.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 8,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Personalized Healthcare Navigator",
+    "description": "An AI that guides individuals through complex healthcare systems, recommending specialists, interpreting medical jargon, and optimizing care pathways. It empowers patients.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 0,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Financial Document Analyzer",
+    "description": "This AI extracts and verifies information from financial documents like invoices and receipts, automating data entry and reconciliation. It improves accounting efficiency.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 5,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "E-commerce Fraud Prevention",
+    "description": "An AI model that detects and prevents fraudulent activities in online transactions, protecting both businesses and consumers. It enhances security for e-commerce platforms.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 9,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Smart Home Energy Manager",
+    "description": "This AI optimizes energy consumption in smart homes by learning user preferences and predicting usage patterns. It contributes to reduced utility bills and a greener lifestyle.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 2,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Sports Analytics AI",
+    "description": "An AI model that analyzes athlete performance, game strategies, and opponent weaknesses to provide insights for sports teams and coaches. It helps optimize training and tactics.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 7,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Climate Action Recommender",
+    "description": "This AI suggests personalized actions individuals and organizations can take to reduce their carbon footprint and combat climate change. It empowers sustainable living.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 11,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Social Impact Predictor",
+    "description": "An AI model that assesses the potential social impact of policies, projects, or initiatives. It aids decision-makers in fostering positive societal outcomes.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 4,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  },
+  {
+    "name": "Personalized Travel Planner",
+    "description": "This AI creates customized travel itineraries based on user preferences, budget, and interests. It simplifies trip planning and enhances travel experiences.",
+    "coverImage": "https://images.unsplash.com/photo-1542903660-eedba2cda473?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D.png",
+    "entity": 1,
+    "isPrivate": false,
+    "odrl": "",
+    "isOdrlUpdate": true
+  }
+]
