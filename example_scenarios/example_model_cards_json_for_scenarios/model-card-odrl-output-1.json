@@ -1,0 +1,659 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/odrl.jsonld",
+    {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "ex": "http://example.org/modelcard/terms#"
+    }
+  ],
+  "@type": "odrl:Policy",
+  "uid": "http://example.org/policy/symptom-triage-classifier-v1.3.2",
+  "profile": "http://example.org/odrl/profile/modelcard",
+  "target": {
+    "@type": "odrl:Asset",
+    "@id": "http://example.org/model/symptom-triage-classifier-v1.3.2",
+    "dc:title": "Symptom Triage Classifier",
+    "dc:creator": {
+      "@id": "http://example.org/party/nordhealth-ai-lab",
+      "foaf:name": "NordHealth AI Lab"
+    },
+    "dcterms:hasVersion": "v1.3.2 (2026-01)",
+    "dc:type": "Clinical NLP classifier (supervised learning)",
+    "dcterms:license": "Internal use license (hospital network only); redistribution prohibited"
+  },
+  "party": [
+    {
+      "@id": "http://example.org/party/nordhealth-ai-lab",
+      "foaf:name": "NordHealth AI Lab",
+      "odrl:role": "odrl:assigner"
+    },
+    {
+      "@id": "http://example.org/party/clinicians-triage-nurses",
+      "foaf:name": "Clinicians and triage nurses in outpatient settings",
+      "odrl:role": "odrl:assignee"
+    },
+    {
+      "@id": "http://example.org/party/healthcare-operations",
+      "foaf:name": "Healthcare operations & reporting",
+      "odrl:role": "odrl:assignee"
+    }
+  ],
+  "permission": [
+    {
+      "@type": "odrl:Permission",
+      "action": "odrl:use",
+      "constraint": [
+        {
+          "odrl:or": [
+            {
+              "odrl:and": [
+                {
+                  "leftOperand": "ex:primaryIntendedDomain",
+                  "operator": "odrl:eq",
+                  "rightOperand": "Healthcare (clinical decision support; symptom triage)"
+                },
+                {
+                  "odrl:or": [
+                    {
+                      "leftOperand": "ex:primaryIntendedUseCase",
+                      "operator": "odrl:eq",
+                      "rightOperand": "Assisting triage prioritization"
+                    },
+                    {
+                      "leftOperand": "ex:primaryIntendedUseCase",
+                      "operator": "odrl:eq",
+                      "rightOperand": "Routing patients to departments"
+                    },
+                    {
+                      "leftOperand": "ex:primaryIntendedUseCase",
+                      "operator": "odrl:eq",
+                      "rightOperand": "Summarizing common complaint categories for intake workflow"
+                    }
+                  ]
+                },
+                {
+                  "leftOperand": "ex:primaryIntendedUsers",
+                  "operator": "odrl:eq",
+                  "rightOperand": "Clinicians and triage nurses in outpatient settings"
+                }
+              ]
+            },
+            {
+              "odrl:and": [
+                {
+                  "leftOperand": "ex:secondaryIntendedDomain",
+                  "operator": "odrl:eq",
+                  "rightOperand": "To assist radiologists by providing automated suggestions on the presence of pneumonia in adult chest X-ray images in clinical triage environments."
+                },
+                {
+                  "odrl:or": [
+                    {
+                      "leftOperand": "ex:secondaryIntendedUseCase",
+                      "operator": "odrl:eq",
+                      "rightOperand": "Aggregated trend analysis of complaint categories (non-identifying)"
+                    },
+                    {
+                      "leftOperand": "ex:secondaryIntendedUseCase",
+                      "operator": "odrl:eq",
+                      "rightOperand": "Operational dashboards"
+                    },
+                    {
+                      "leftOperand": "ex:secondaryIntendedUseCase",
+                      "operator": "odrl:eq",
+                      "rightOperand": "Workload planning"
+                    }
+                  ]
+                },
+                {
+                  "leftOperand": "ex:secondaryIntendedUsers",
+                  "operator": "odrl:eq",
+                  "rightOperand": "Healthcare operations & reporting"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "prohibition": [
+    {
+      "@type": "odrl:Prohibition",
+      "action": "odrl:use",
+      "constraint": [
+        {
+          "odrl:and": [
+            {
+              "odrl:or": [
+                {
+                  "leftOperand": "ex:misuseCase",
+                  "operator": "odrl:eq",
+                  "rightOperand": "Using outputs as definitive diagnosis"
+                },
+                {
+                  "leftOperand": "ex:misuseCase",
+                  "operator": "odrl:eq",
+                  "rightOperand": "Denying care based on predicted category"
+                },
+                {
+                  "leftOperand": "ex:misuseCase",
+                  "operator": "odrl:eq",
+                  "rightOperand": "Exporting inputs to third-party tools"
+                }
+              ]
+            },
+            {
+              "odrl:or": [
+                {
+                  "leftOperand": "ex:prohibitedDomain",
+                  "operator": "odrl:eq",
+                  "rightOperand": "Medical diagnosis"
+                },
+                {
+                  "leftOperand": "ex:prohibitedDomain",
+                  "operator": "odrl:eq",
+                  "rightOperand": "Emergency decision-making without clinician oversight"
+                },
+                {
+                  "leftOperand": "ex:prohibitedDomain",
+                  "operator": "odrl:eq",
+                  "rightOperand": "Insurance eligibility decisions"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "duty": [
+    {
+      "@type": "odrl:Duty",
+      "action": "odrl:inform",
+      "constraint": [
+        {
+          "odrl:and": [
+            {
+              "leftOperand": "ex:hardware",
+              "operator": "odrl:eq",
+              "rightOperand": "Trained on 4× NVIDIA A100 (80GB)"
+            },
+            {
+              "leftOperand": "ex:hardware",
+              "operator": "odrl:eq",
+              "rightOperand": "Deployed on CPU for batch scoring"
+            },
+            {
+              "leftOperand": "ex:hardware",
+              "operator": "odrl:eq",
+              "rightOperand": "1× NVIDIA T4 for realtime API"
+            },
+            {
+              "leftOperand": "ex:software",
+              "operator": "odrl:eq",
+              "rightOperand": "Python 3.11"
+            },
+            {
+              "leftOperand": "ex:software",
+              "operator": "odrl:eq",
+              "rightOperand": "PyTorch 2.x"
+            },
+            {
+              "leftOperand": "ex:software",
+              "operator": "odrl:eq",
+              "rightOperand": "HuggingFace Transformers"
+            },
+            {
+              "leftOperand": "ex:software",
+              "operator": "odrl:eq",
+              "rightOperand": "FastAPI"
+            },
+            {
+              "leftOperand": "ex:software",
+              "operator": "odrl:eq",
+              "rightOperand": "Docker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "odrl:Duty",
+      "action": "odrl:inform",
+      "constraint": [
+        {
+          "odrl:and": [
+            {
+              "leftOperand": "ex:evaluationDataset",
+              "operator": "odrl:eq",
+              "rightOperand": "Held-out hospital triage notes (2024-Q4)"
+            },
+            {
+              "leftOperand": "ex:evaluationDataset",
+              "operator": "odrl:eq",
+              "rightOperand": "Synthetic misspelling set"
+            },
+            {
+              "leftOperand": "ex:evaluationDataset",
+              "operator": "odrl:eq",
+              "rightOperand": "External public symptom QA set (for robustness only)"
+            },
+            {
+              "leftOperand": "ex:evaluationFactor",
+              "operator": "odrl:eq",
+              "rightOperand": "Free-text length (5–300 tokens)"
+            },
+            {
+              "leftOperand": "ex:evaluationFactor",
+              "operator": "odrl:eq",
+              "rightOperand": "Spelling noise"
+            },
+            {
+              "leftOperand": "ex:evaluationFactor",
+              "operator": "odrl:eq",
+              "rightOperand": "Multilingual inputs (EN/DA/DE)"
+            },
+            {
+              "leftOperand": "ex:evaluationFactor",
+              "operator": "odrl:eq",
+              "rightOperand": "Rare symptom categories"
+            },
+            {
+              "leftOperand": "ex:evaluationFactor",
+              "operator": "odrl:eq",
+              "rightOperand": "Age-group phrasing differences"
+            },
+            {
+              "leftOperand": "ex:evaluationPerformance",
+              "operator": "odrl:eq",
+              "rightOperand": "Macro-F1: 0.86 on in-domain test set"
+            },
+            {
+              "leftOperand": "ex:evaluationPerformance",
+              "operator": "odrl:eq",
+              "rightOperand": "AUROC: 0.93 avg"
+            },
+            {
+              "leftOperand": "ex:evaluationPerformance",
+              "operator": "odrl:eq",
+              "rightOperand": "p95 latency: 120ms (GPU) / 680ms (CPU)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "odrl:Duty",
+      "action": "odrl:inform",
+      "constraint": [
+        {
+          "odrl:and": [
+            {
+              "leftOperand": "ex:metric",
+              "operator": "odrl:eq",
+              "rightOperand": "Macro-F1"
+            },
+            {
+              "leftOperand": "ex:metric",
+              "operator": "odrl:eq",
+              "rightOperand": "Precision/Recall per class"
+            },
+            {
+              "leftOperand": "ex:metric",
+              "operator": "odrl:eq",
+              "rightOperand": "AUROC (one-vs-rest)"
+            },
+            {
+              "leftOperand": "ex:metric",
+              "operator": "odrl:eq",
+              "rightOperand": "Calibration (ECE)"
+            },
+            {
+              "leftOperand": "ex:metric",
+              "operator": "odrl:eq",
+              "rightOperand": "Latency (p95)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "odrl:Duty",
+      "action": "odrl:inform",
+      "constraint": [
+        {
+          "odrl:and": [
+            {
+              "leftOperand": "ex:trainingAlgorithm",
+              "operator": "odrl:eq",
+              "rightOperand": "Fine-tuning with AdamW"
+            },
+            {
+              "leftOperand": "ex:trainingAlgorithm",
+              "operator": "odrl:eq",
+              "rightOperand": "Cross-entropy loss"
+            },
+            {
+              "leftOperand": "ex:trainingAlgorithm",
+              "operator": "odrl:eq",
+              "rightOperand": "Class-weighting for imbalance"
+            },
+            {
+              "leftOperand": "ex:trainingDataset",
+              "operator": "odrl:eq",
+              "rightOperand": "~1.2M de-identified triage notes + complaint labels mapped to 28 symptom categories"
+            },
+            {
+              "leftOperand": "ex:trainingProcedure",
+              "operator": "odrl:eq",
+              "rightOperand": "Data cleaning + PHI redaction validation"
+            },
+            {
+              "leftOperand": "ex:trainingProcedure",
+              "operator": "odrl:eq",
+              "rightOperand": "Stratified split by facility"
+            },
+            {
+              "leftOperand": "ex:trainingProcedure",
+              "operator": "odrl:eq",
+              "rightOperand": "Early stopping on dev Macro-F1"
+            },
+            {
+              "leftOperand": "ex:trainingProcedure",
+              "operator": "odrl:eq",
+              "rightOperand": "Threshold tuning for top-3 output"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "odrl:Duty",
+      "action": "odrl:inform",
+      "constraint": [
+        {
+          "odrl:and": [
+            {
+              "leftOperand": "ex:biasMitigation",
+              "operator": "odrl:eq",
+              "rightOperand": "Rebalanced sampling"
+            },
+            {
+              "leftOperand": "ex:biasMitigation",
+              "operator": "odrl:eq",
+              "rightOperand": "Per-group performance monitoring"
+            },
+            {
+              "leftOperand": "ex:biasMitigation",
+              "operator": "odrl:eq",
+              "rightOperand": "Multilingual augmentation"
+            },
+            {
+              "leftOperand": "ex:biasMitigation",
+              "operator": "odrl:eq",
+              "rightOperand": "Human review for low-confidence predictions"
+            },
+            {
+              "leftOperand": "ex:limitations",
+              "operator": "odrl:eq",
+              "rightOperand": "Lower accuracy for rare categories"
+            },
+            {
+              "leftOperand": "ex:limitations",
+              "operator": "odrl:eq",
+              "rightOperand": "Mixed-symptom narratives"
+            },
+            {
+              "leftOperand": "ex:limitations",
+              "operator": "odrl:eq",
+              "rightOperand": "Sensitive to short/ambiguous inputs"
+            },
+            {
+              "leftOperand": "ex:limitations",
+              "operator": "odrl:eq",
+              "rightOperand": "Performance may degrade for languages beyond EN/DA/DE"
+            },
+            {
+              "leftOperand": "ex:misuseCase",
+              "operator": "odrl:eq",
+              "rightOperand": "Using outputs as definitive diagnosis"
+            },
+            {
+              "leftOperand": "ex:misuseCase",
+              "operator": "odrl:eq",
+              "rightOperand": "Denying care based on predicted category"
+            },
+            {
+              "leftOperand": "ex:misuseCase",
+              "operator": "odrl:eq",
+              "rightOperand": "Exporting inputs to third-party tools"
+            },
+            {
+              "leftOperand": "ex:privacyConcern",
+              "operator": "odrl:eq",
+              "rightOperand": "Potential leakage of sensitive content if raw inputs are logged or exported"
+            },
+            {
+              "leftOperand": "ex:privacyConcern",
+              "operator": "odrl:eq",
+              "rightOperand": "Re-identification risk from free-text"
+            },
+            {
+              "leftOperand": "ex:privacyPolicy",
+              "operator": "odrl:eq",
+              "rightOperand": "No storage of raw patient text by default"
+            },
+            {
+              "leftOperand": "ex:privacyPolicy",
+              "operator": "odrl:eq",
+              "rightOperand": "Optional logging requires approval, minimization, and retention limits (e.g., 30 days)"
+            },
+            {
+              "leftOperand": "ex:prohibitedDomain",
+              "operator": "odrl:eq",
+              "rightOperand": "Medical diagnosis"
+            },
+            {
+              "leftOperand": "ex:prohibitedDomain",
+              "operator": "odrl:eq",
+              "rightOperand": "Emergency decision-making without clinician oversight"
+            },
+            {
+              "leftOperand": "ex:prohibitedDomain",
+              "operator": "odrl:eq",
+              "rightOperand": "Insurance eligibility decisions"
+            },
+            {
+              "leftOperand": "ex:regulatoryAdherence",
+              "operator": "odrl:eq",
+              "rightOperand": "GDPR-aligned processing controls"
+            },
+            {
+              "leftOperand": "ex:regulatoryAdherence",
+              "operator": "odrl:eq",
+              "rightOperand": "Clinical risk management aligned with internal medical device guidance"
+            },
+            {
+              "leftOperand": "ex:regulatoryCompliance",
+              "operator": "odrl:eq",
+              "rightOperand": "Intended as decision-support only"
+            },
+            {
+              "leftOperand": "ex:regulatoryCompliance",
+              "operator": "odrl:eq",
+              "rightOperand": "Not certified as a standalone medical device"
+            },
+            {
+              "leftOperand": "ex:regulatoryCompliance",
+              "operator": "odrl:eq",
+              "rightOperand": "Requires local validation before clinical rollout"
+            },
+            {
+              "leftOperand": "ex:riskFactor",
+              "operator": "odrl:eq",
+              "rightOperand": "Over-reliance by staff"
+            },
+            {
+              "leftOperand": "ex:riskFactor",
+              "operator": "odrl:eq",
+              "rightOperand": "Incorrect routing for rare symptoms"
+            },
+            {
+              "leftOperand": "ex:riskFactor",
+              "operator": "odrl:eq",
+              "rightOperand": "Reduced performance on out-of-distribution text"
+            },
+            {
+              "leftOperand": "ex:riskMitigation",
+              "operator": "odrl:eq",
+              "rightOperand": "Mandatory training for users"
+            },
+            {
+              "leftOperand": "ex:riskMitigation",
+              "operator": "odrl:eq",
+              "rightOperand": "Usage constraints in UI"
+            },
+            {
+              "leftOperand": "ex:riskMitigation",
+              "operator": "odrl:eq",
+              "rightOperand": "Escalation to clinician review when confidence is low or symptoms are severe"
+            },
+            {
+              "leftOperand": "ex:riskSeverity",
+              "operator": "odrl:eq",
+              "rightOperand": "Medium (clinical workflow impact)"
+            },
+            {
+              "leftOperand": "ex:riskSeverity",
+              "operator": "odrl:eq",
+              "rightOperand": "Potentially High if used beyond triage support"
+            },
+            {
+              "leftOperand": "ex:safetyAndSecurityPolicy",
+              "operator": "odrl:eq",
+              "rightOperand": "Incident reporting workflow"
+            },
+            {
+              "leftOperand": "ex:safetyAndSecurityPolicy",
+              "operator": "odrl:eq",
+              "rightOperand": "Quarterly model monitoring"
+            },
+            {
+              "leftOperand": "ex:safetyAndSecurityPolicy",
+              "operator": "odrl:eq",
+              "rightOperand": "Rollback plan"
+            },
+            {
+              "leftOperand": "ex:safetyAndSecurityPolicy",
+              "operator": "odrl:eq",
+              "rightOperand": "Red-team testing for prompt injection and data exfiltration attempts"
+            },
+            {
+              "leftOperand": "ex:safetyMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "Human-in-the-loop requirement"
+            },
+            {
+              "leftOperand": "ex:safetyMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "Confidence thresholds"
+            },
+            {
+              "leftOperand": "ex:safetyMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "“Uncertain” output option"
+            },
+            {
+              "leftOperand": "ex:safetyMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "Prominent disclaimer: not a diagnosis tool"
+            },
+            {
+              "leftOperand": "ex:securityMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "TLS in transit"
+            },
+            {
+              "leftOperand": "ex:securityMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "Encryption at rest"
+            },
+            {
+              "leftOperand": "ex:securityMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "Access control (RBAC)"
+            },
+            {
+              "leftOperand": "ex:securityMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "Audit logs"
+            },
+            {
+              "leftOperand": "ex:securityMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "Rate limiting"
+            },
+            {
+              "leftOperand": "ex:securityMeasure",
+              "operator": "odrl:eq",
+              "rightOperand": "Secured deployment network"
+            },
+            {
+              "leftOperand": "ex:typeOfBias",
+              "operator": "odrl:eq",
+              "rightOperand": "Class imbalance (rare conditions)"
+            },
+            {
+              "leftOperand": "ex:typeOfBias",
+              "operator": "odrl:eq",
+              "rightOperand": "Language bias (best performance in Danish/English)"
+            },
+            {
+              "leftOperand": "ex:typeOfBias",
+              "operator": "odrl:eq",
+              "rightOperand": "Demographic phrasing differences (age-related descriptions)"
+            },
+            {
+              "leftOperand": "ex:unintendedUser",
+              "operator": "odrl:eq",
+              "rightOperand": "Patients/self-diagnosis use"
+            },
+            {
+              "leftOperand": "ex:unintendedUser",
+              "operator": "odrl:eq",
+              "rightOperand": "Non-clinical staff making clinical decisions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "odrl:Duty",
+      "action": "odrl:inform",
+      "constraint": [
+        {
+          "odrl:and": [
+            {
+              "leftOperand": "ex:caveatRecommendation",
+              "operator": "odrl:eq",
+              "rightOperand": "Use only for triage assistance with clinician oversight"
+            },
+            {
+              "leftOperand": "ex:caveatRecommendation",
+              "operator": "odrl:eq",
+              "rightOperand": "Review top-3 suggestions (not only top-1)"
+            },
+            {
+              "leftOperand": "ex:caveatRecommendation",
+              "operator": "odrl:eq",
+              "rightOperand": "Monitor drift monthly and revalidate after workflow or data changes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

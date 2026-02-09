@@ -1,0 +1,52 @@
+{
+  "caveatsAndRecommendations": "Use only for triage assistance with clinician oversight; review top-3 suggestions (not only top-1); monitor drift monthly and revalidate after workflow or data changes ",
+  "ethicalConsiderations": {
+    "biasMitigation": "Rebalanced sampling, per-group performance monitoring, multilingual augmentation, human review for low-confidence predictions ",
+    "limitations": "Lower accuracy for rare categories and mixed-symptom narratives; sensitive to short/ambiguous inputs; performance may degrade for languages beyond EN/DA/DE ",
+    "misuseCases": "Using outputs as definitive diagnosis, denying care based on predicted category, exporting inputs to third-party tools ",
+    "privacyConcerns": "Potential leakage of sensitive content if raw inputs are logged or exported; re-identification risk from free-text ",
+    "privacyPolicy": "No storage of raw patient text by default; optional logging requires approval, minimization, and retention limits (e.g., 30 days) ",
+    "prohibitedDomains": "Medical diagnosis, emergency decision-making without clinician oversight, insurance eligibility decisions ",
+    "regulatoryAdherence": "GDPR-aligned processing controls; clinical risk management aligned with internal medical device guidance ",
+    "regulatoryCompliance": "Intended as decision-support only; not certified as a standalone medical device; requires local validation before clinical rollout ",
+    "riskFactors": "Over-reliance by staff, incorrect routing for rare symptoms, reduced performance on out-of- distribution text ",
+    "riskMitigation": "Mandatory training for users, usage constraints in UI, escalation to clinician review when confidence is low or symptoms are severe ",
+    "riskSeverity": "Medium (clinical workflow impact), potentially High if used beyond triage support ",
+    "safetyAndSecurityPolicy": "Incident reporting workflow, quarterly model monitoring, rollback plan, red-team testing for prompt injection and data exfiltration attempts ",
+    "safetyMeasures": "Human-in-the-loop requirement; confidence thresholds; “uncertain” output option; prominent disclaimer: not a diagnosis tool ",
+    "securityMeasures": "TLS in transit, encryption at rest, access control (RBAC), audit logs, rate limiting, secured deployment network ",
+    "typeOfBias": "Class imbalance (rare conditions), language bias (best performance in Danish/English), demographic phrasing differences (age-related descriptions) ",
+    "unintendedUsers": "Patients/self-diagnosis use; non-clinical staff making clinical decisions "
+  },
+  "evaluation": {
+    "datasets": "Held-out hospital triage notes (2024-Q4), synthetic misspelling set, external public symptom QA set (for robustness only) ",
+    "factors": "Free-text length (5–300 tokens), spelling noise, multilingual inputs (EN/DA/DE), rare symptom categories, age-group phrasing differences ",
+    "metrics": "Macro-F1, Precision/Recall per class, AUROC (one-vs-rest), calibration (ECE), latency (p95) ",
+    "performance": "Macro-F1: 0.86 on in-domain test set; AUROC: 0.93 avg; p95 latency: 120ms (GPU) / 680ms (CPU) "
+  },
+  "factors": {
+    "hardware": "Trained on 4× NVIDIA A100 (80GB); deployed on CPU for batch scoring and 1× NVIDIA T4 for realtime API ",
+    "software": "Python 3.11, PyTorch 2.x, HuggingFace Transformers, FastAPI, Docker "
+  },
+  "intendedUse": {
+    "primaryIntendedDomain": "Healthcare (clinical decision support; symptom triage) ",
+    "primaryIntendedUseCases": "Assisting triage prioritization, routing patients to departments, summarizing common complaint categories for intake workflow ",
+    "primaryIntendedUsers": "Clinicians and triage nurses in outpatient settings ",
+    "secondaryIntendedDomain": "To assist radiologists by providing automated suggestions on the presence of pneumonia in adult chest X-ray images in clinical triage environments. ",
+    "secondaryIntendedUseCases": "Healthcare operations & reportingAggregated trend analysis of complaint categories (non- identifying), operational dashboards, workload planning ",
+    "secondaryIntendedUsers": "Healthcare operations & reporting "
+  },
+  "modelDetails": {
+    "architecture": "Transformer encoder + classification head (BERT-style) ",
+    "description": "Predicts likely symptom categories (e.g., respiratory, dermatology, GI) from short patient text inputs for triage support. Produces probability scores and top-3 labels. ",
+    "license": "Internal use license (hospital network only); redistribution prohibited ",
+    "provider": "NordHealth AI Lab ",
+    "type": "Clinical NLP classifier (supervised learning) ",
+    "version": "v1.3.2 (2026-01) "
+  },
+  "trainingData": {
+    "algorithm": "Fine-tuning with AdamW; cross-entropy loss; class-weighting for imbalance ",
+    "dataset": "~1.2M de-identified triage notes + complaint labels mapped to 28 symptom categories ",
+    "procedure": "Data cleaning + PHI redaction validation, stratified split by facility, early stopping on dev Macro- F1, threshold tuning for top-3 output "
+  }
+}
